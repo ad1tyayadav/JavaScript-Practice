@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(56, 55, 55);
+    color: #f1e9e9;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#joke {
+    text-align: center;
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: large;
+    font-weight: 700;
+}
+
+button {
+    padding: 5px 12px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 12px;
+    font-family: cursive;
+    font-size: medium;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 80%;
+    color: blueviolet;
+    background-color: white;
+    transition: background-color 0.5s ease;
+}
